@@ -1,0 +1,69 @@
+/* Admin.css */
+.soft-ui-dashboard {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .content-header {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .soft-ui-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .soft-ui-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .soft-ui-button {
+    background-color: #66bb6a !important;
+    color: #ffffff !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  
+  .soft-ui-button:hover {
+    background-color: #4caf50 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .soft-ui-card .MuiCardContent-root {
+    padding: 20px;
+  }
+  
+  .soft-ui-card .MuiTypography-root {
+    margin-bottom: 10px;
+  }
+  
+  .soft-ui-card .MuiListItemText-primary {
+    color: #344767;
+    font-weight: 500;
+  }
+  
+  .soft-ui-card .MuiListItemText-secondary {
+    color: #7b809a;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
