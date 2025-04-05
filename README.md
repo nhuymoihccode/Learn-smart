@@ -31,20 +31,20 @@
 ## Hướng dẫn cài đặt và chạy
 
 ### 1. Tải dự án
-Clone dự án từ GitHub:
+**Clone dự án từ GitHub**:
 git clone https://github.com/nhuymoichcode/LearnSmartHub.git
-Hoặc tải ZIP:
+**Hoặc tải ZIP**:
 Truy cập https://github.com/nhuymoichcode/LearnSmartHub.
 Nhấn Code → Download ZIP.
 Giải nén file ZIP.
-2. Cài đặt thư viện
-Vào thư mục dự án:
+### 2. Cài đặt thư viện
+**Vào thư mục dự án**:
 cd LearnSmartHub/learnsmart-hub
-Cài đặt:
+**Cài đặt**:
 npm install
-3. Cấu hình Firebase
-Tạo dự án trên Firebase Console.
-Thêm ứng dụng web, sao chép cấu hình:
+### 3. Cấu hình Firebase
+**Tạo dự án trên Firebase Console**.
+**Thêm ứng dụng web, sao chép cấu hình**:
 const firebaseConfig = {
   apiKey: "your-api-key",
   authDomain: "your-auth-domain",
@@ -53,7 +53,7 @@ const firebaseConfig = {
   messagingSenderId: "your-messaging-sender-id",
   appId: "your-app-id"
 };
-Tạo file src/firebase-config.js:
+**Tạo file src/firebase-config.js**:
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
@@ -67,7 +67,7 @@ export const db = getFirestore(app);
 export const auth = getAuth(app);
 Cấu hình Firestore Security Rules:
 Trong Firebase Console, vào Firestore Database → Rules.
-Dán quy tắc:
+**Dán quy tắc**:
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -84,8 +84,8 @@ service cloud.firestore {
     }
   }
 }
-Nhấn Publish.
-4. Chạy dự án
+**Nhấn Publish**.
+### 4. Chạy dự án
 Vào thư mục:
 cd LearnSmartHub/learnsmart-hub
 Chạy:
