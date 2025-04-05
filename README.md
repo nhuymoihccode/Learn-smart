@@ -49,6 +49,7 @@ npm install
 ### 3. Cấu hình Firebase
 **Tạo dự án trên Firebase Console**.
 **Thêm ứng dụng web, sao chép cấu hình**:
+
 const firebaseConfig = {
   apiKey: "your-api-key",
   authDomain: "your-auth-domain",
@@ -57,10 +58,15 @@ const firebaseConfig = {
   messagingSenderId: "your-messaging-sender-id",
   appId: "your-app-id"
 };
+
 **Tạo file src/firebase-config.js**:
+
 import { initializeApp } from "firebase/app";
+
 import { getFirestore } from "firebase/firestore";
+
 import { getAuth } from "firebase/auth";
+
 
 const firebaseConfig = {
   // Dán cấu hình của bạn ở đây
