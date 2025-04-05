@@ -32,10 +32,14 @@
 
 ### 1. Tải dự án
 **Clone dự án từ GitHub**:
-git clone https://github.com/nhuymoichcode/LearnSmartHub.git
+
+git clone https://github.com/nhuymoichcode/LearnSmartHub.git.
 **Hoặc tải ZIP**:
+
 Truy cập https://github.com/nhuymoichcode/LearnSmartHub.
+
 Nhấn Code → Download ZIP.
+
 Giải nén file ZIP.
 ### 2. Cài đặt thư viện
 **Vào thư mục dự án**:
@@ -84,6 +88,7 @@ service cloud.firestore {
     }
   }
 }
+
 **Nhấn Publish**.
 ### 4. Chạy dự án
 Vào thư mục:
