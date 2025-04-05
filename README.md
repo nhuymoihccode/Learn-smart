@@ -34,6 +34,7 @@
 **Clone dự án từ GitHub**:
 
 git clone https://github.com/nhuymoichcode/LearnSmartHub.git.
+
 **Hoặc tải ZIP**:
 
 Truy cập https://github.com/nhuymoichcode/LearnSmartHub.
@@ -111,3 +112,16 @@ Lưu ý
 Đảm bảo cấu hình Firebase chính xác.
 Một số tính năng yêu cầu đăng nhập.
 File firebase-config.js không được đẩy lên GitHub (đã có trong .gitignore).
+### Tài khoản đăng nhập
+-**Admin**: email:
+ha@gmail.com 
+mk:
+123456
+-**User**: email:
+haha@gmail.com
+mk:
+123457
+-**Customer**: tk:
+ha1@gmail.com
+mk:
+123456
